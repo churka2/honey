@@ -1,0 +1,524 @@
+@import url(./fonts.css);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+.header {}
+
+
+.header__wrap {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.header__logo {
+    width: 92.22px;
+    height: 40px;
+
+}
+
+.header__menu {
+    display: flex;
+    gap: 40px;
+
+}
+
+.headmenu__link {
+    font-family: 'Kodchasan-medium', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.headmenu__list:hover {
+    font-family: 'Kodchasan-bold', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.mainbanner {
+    display: flex;
+    justify-content: center;
+    padding: 0 50px;
+    padding-bottom: 130px;
+}
+
+.background {
+    height: 865px;
+    width: 1500px;
+    border-radius: 30px;
+    background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
+
+}
+
+.mainbanner__img {
+    height: 650px;
+    width: 686.83px;
+    margin-top: 124px;
+    margin-right: 10.74px;
+}
+
+.mainbanner__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 70px
+}
+
+.mainbanner__txt {
+    font-family: 'Kodchasan-bold', sans-serif;
+    font-size: 100px;
+    color: #0B0B0B;
+
+}
+
+.honey__back {
+    width: 1500px;
+    height: 865px;
+    background-image: url(../IMG/logoback.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    background-size: 100%;
+    background-position-y: 50%
+}
+
+.mainbanner__btn {
+    font-family: 'Kodchasan-bold', sans-serif;
+    font-size: 18px;
+}
+
+.licking {
+    padding-left: 275px;
+}
+
+.finger {
+    padding-left: 177px;
+}
+
+.honey {
+    padding-left: 177px;
+}
+
+.first__btn {
+    margin-left: 177px;
+    background: black;
+    color: white;
+    padding: 18px 50px;
+}
+
+.second__btn {
+    padding: 18px 50px;
+    margin: 30px;
+}
+
+.mainbanner__btn {
+    border: 2px solid black;
+    background: transparent;
+    color: black;
+    transition: 0.25s
+}
+
+.mainbanner__btn:hover {
+    color: white;
+    background: black;
+}
+
+.trustedshops {
+    margin: 0 auto;
+    width: 1600px;
+    padding-bottom: 131px;
+}
+
+.trustedshops__h2 {
+    font-family: 'Kodchasan-bold', sans-serif;
+    font-size: 45px;
+    padding-left: 228px;
+    padding-bottom: 52.77px;
+}
+
+.trustedshops__logos {
+    display: flex;
+    gap: 101.7px;
+    padding-left: 228px;
+}
+
+.midbanner {
+    margin: 0 auto;
+    display: flex;
+    height: 784.26px;
+    width: 1406.81px;
+    justify-content: space-between;
+}
+
+.midbanner__mainback {
+    width: 700px;
+    height: 700px;
+    padding: 50px;
+    padding-left: 97px;
+}
+
+.midbanner__backone {
+    width: 579px;
+    height: 555px;
+    border-radius: 100px;
+    padding-top: 51.61px;
+    padding-left: 30px;
+    background-size: 50%;
+    margin: 50px;
+
+    transform: rotate(117.36deg);
+    background: linear-gradient(76.02deg, #FFF9EB 1.66%, #FFCE96 93.21%);
+
+
+}
+
+.midbanner__backtwo {
+    width: 579px;
+    height: 555px;
+    background: linear-gradient(0deg, #F4F4F4, #F4F4F4),
+        linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border-radius: 100px;
+    padding-top: 30px;
+}
+
+
+.midbanner__jar {
+    width: 520px;
+    height: 600px;
+    background: url(../IMG/midbanner.png);
+    background-size: 424px 543px;
+    background-position-y: 50px;
+    background-position-x: 60px;
+    background-repeat: no-repeat;
+    transform: rotate(-117.36deg);
+}
+
+.midbanner__bee {
+    width: 520px;
+    height: 600px;
+    background: url(../IMG/beemidbanner.png);
+    background-size: 189px 129px;
+    background-position-x: 50px;
+    background-position-y: 440px;
+    background-repeat: no-repeat;
+}
+
+.midbanner__right {
+    padding-top: 205px;
+}
+
+.midbanner__h2 {
+    height: 130px;
+    width: 548px;
+    font-family: 'Kodchasan-bold', sans-serif;
+    font-size: 45px;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.midbanner__text {
+    height: auto;
+    width: 516px;
+    font-family: 'Kodchasan-semibold', sans-serif;
+    font-size: 22px;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    opacity: 0.7;
+}
+
+.midbanner__btn {
+    padding: 15px 40px;
+    border: none;
+    background: #E68311;
+    font-family: 'Kodchasan-bold', sans-serif;
+    font-size: 18px;
+    color: white;
+    transition: 0.25s
+}
+
+.midbanner__btn:hover {
+    background: rgb(253, 83, 5)
+}
+
+
+.lastbanner {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 784.26px;
+    width: 1406.81px;
+    justify-content: space-between;
+    padding-top: 100px;
+    margin-bottom: 120px;
+
+
+}
+
+.lastbanner__mainback {
+    width: 700px;
+    height: 700px;
+    padding: 50px;
+    padding-left: 97px;
+}
+
+.lastbanner__backone {
+    width: 579px;
+    height: 555px;
+    border-radius: 100px;
+    padding-top: 51.61px;
+    padding-left: 30px;
+    background-size: 50%;
+    margin: 50px;
+
+    transform: rotate(117.36deg);
+    background: linear-gradient(76.02deg, #FFF9EB 1.66%, #FFCE96 93.21%);
+
+
+}
+
+.lastbanner__backtwo {
+    width: 579px;
+    height: 555px;
+    background: linear-gradient(0deg, #F4F4F4, #F4F4F4),
+        linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border-radius: 100px;
+    padding-top: 30px;
+
+}
+
+
+.lastbanner__jar {
+    width: 520px;
+    height: 600px;
+    background: url(../IMG/lastbanner.png);
+    background-size: 436px 439px;
+    background-position-y: 90px;
+    background-position-x: 70px;
+    background-repeat: no-repeat;
+    transform: rotate(-117.36deg);
+}
+
+
+.lastbanner__left {
+    padding-top: 205px;
+}
+
+.lastbanner__h2 {
+    height: 130px;
+    width: 548px;
+    font-family: 'Kodchasan-bold', sans-serif;
+    font-size: 45px;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.lastbanner__text {
+    height: auto;
+    width: 516px;
+    font-family: 'Kodchasan-semibold', sans-serif;
+    font-size: 22px;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    opacity: 0.7;
+}
+
+.lastbanner__btn {
+    padding: 15px 40px;
+    border: none;
+    background: #E68311;
+    font-family: 'Kodchasan-bold', sans-serif;
+    font-size: 18px;
+    color: white;
+    transition: 0.25s
+}
+
+.lastbanner__btn:hover {
+    background: rgb(253, 83, 5)
+}
+
+.ourproduct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 130px;
+}
+
+.products {
+    display: flex;
+    gap: 30px
+}
+
+.ourproduct__top {
+    display: flex;
+    gap: 831px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.ourproduct__h2 {
+    font-family: 'Kodchasan-bold', sans-serif;
+    font-size: 45px;
+}
+
+.ourproduct__link {
+    font-family: 'Kodchasan-bold', sans-serif;
+    font-size: 18px;
+    color: #E58211;
+}
+
+.product {
+    display: flex;
+    background: #fdf6ee;
+    height: 305px;
+    width: 558px;
+
+}
+
+.product__left {
+    padding-left: 30px;
+    padding-top: 45px;
+}
+
+.firstproduct__img {
+    height: 248px;
+    width: 234px;
+    margin-top: 29px;
+
+}
+
+.product__h2 {
+    font-family: 'Kodchasan-semibold', sans-serif;
+    font-size: 28px;
+    line-height: 39px;
+}
+
+.product__text {
+    font-family: 'Kodchasan-semibold', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    opacity: 0.7;
+    padding: 20px 0;
+
+
+
+    margin-bottom: 40px;
+}
+
+.fproduct__text {
+    height: 78px;
+    width: 312px;
+}
+
+
+.sproduct__text {
+    height: 78px;
+    width: 324px;
+}
+
+.product__btn {
+    border: 2px solid #E58211;
+    background: transparent;
+    color: #E58211;
+    transition: 0.25s;
+    font-family: 'Kodchasan-bold', sans-serif;
+    font-size: 18px;
+    padding: 10px 30px;
+}
+
+.product__btn:hover {
+    color: #fdf6ee;
+    background: #E58211;
+}
+
+.secondproduct__img {
+    height: 219px;
+    width: 103px;
+    margin: 43px 40px;
+}
+
+.ourproduct__link:hover {
+    text-decoration: none
+}
+
+.footer {
+    background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
+    height: 137px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1600px;
+    margin: 0 auto
+}
+
+.buttons__img {
+    height: 41.27px;
+    width: 139.06px;
+}
+
+.footer__log {
+    height: 28.62px;
+    width: 66px;
+
+}
+
+.facebook {
+    height: 19.74px;
+    width: 9.87px;
+}
+
+.twitter {
+    height: 19.74px;
+    width: 23.85px;
+}
+
+.google {
+    height: 18.10px;
+    width: 27.15px;
+}
+
+.pinterest {
+    height: 20.56px;
+    width: 15.63px;
+}
+
+.footer__txt {
+    font-family: 'Kodchasan-medium', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    height: 47px;
+    width: 269px;
+    opacity: 0.7;
+    margin-left: 50px;
+}
+
+.footer__icons {
+    display: flex;
+    gap: 40px;
+    margin-right: 173px;
+    margin-left: 88px;
+}
